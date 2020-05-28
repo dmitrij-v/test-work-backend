@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  database: test_work_dev
+  pool: 5
+  timeout: 5000
+test:
+  adapter: postgresql
+  database: test_work_test
+  pool: 5
+  timeout: 5000
+production:
+  adapter: postgresql
+  database: test_work_prod
+  pool: 5
+  timeout: 5000
